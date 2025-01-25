@@ -1,4 +1,4 @@
-import HeroContainer from "./HeroContainer.jsx";
+import TeaserHeroContainer from "./TeaserHeroContainer.jsx";
 import Footer from "./Footer.jsx";
 
-export {HeroContainer,Footer}
+export {TeaserHeroContainer,Footer}

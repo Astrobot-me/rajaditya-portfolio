@@ -3,7 +3,7 @@ import { Spotlight } from "./ui/index.js";
 import { TextGenerateEffect } from "./ui/index.js";
 import { ShootingStars } from "./ui/index.js";
 import { StarsBackground } from "./ui/index.js";
-import TimerCountdown from "../hooks/useCount";
+import TimerCountdown from "../hooks/useCount.js";
 
 export default function HeroContainer() {
 
@@ -12,7 +12,7 @@ export default function HeroContainer() {
 
   return (
     (<div
-      className="h-auto sm:h-screen w-full   flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+      className="h-screen w-full   flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight />
       <StarsBackground className={`bg-black/[0.96]`} />
       <ShootingStars maxDelay={1500} starColor={`#1f75ff`} maxSpeed={8} minSpeed={5} starWidth={30} />
@@ -21,7 +21,7 @@ export default function HeroContainer() {
           className="text-5xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-orange-600 to-blue-700 bg-opacity-50 motion-preset-flomoji-[🚀]  ">
           Welcome to <br /> <span className="font-funneldisplay ">AditYa RaJ's PortFolio </span>
         </h1>
-        <div className=" mt-5 text-5xl text-white text-center ">
+        <div className=" sm:mt-10 mt-20 text-5xl text-white text-center ">
           <TextGenerateEffect words={"Releasing Soon "} duration={0.9} className={`font-lexend`} />
         </div>
         <div className=" sm:text-6xl text-3xl text-white text-center font-lexend">
@@ -39,8 +39,8 @@ export default function HeroContainer() {
         </div>
 
         <p
-          className="mt-10 font-normal text-base text-neutral-300 sm:max-w-2xl max-w-xl text-center mx-auto  ">
-         As the stars aligns,the code refines, and it fixes my mess so it comes to life. Keep watching this space something remarkable is on its way 🚀.
+          className="sm:mt-10 mt-12 font-normal text-base text-neutral-300 sm:max-w-2xl max-w-[310px] text-center mx-auto  ">
+         As the stars aligns,the gpt refines, and it fixes my code mess so it comes to life. Keep watching this space something remarkable is on its way 🚀.
         </p>
       </div>
     </div >)
