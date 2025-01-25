@@ -1,4 +1,4 @@
 import HeroContainer from "./HeroContainer.jsx";
-// import Navbar from "./Navbar.jsx";
+import Footer from "./Footer.jsx";
 
-export {HeroContainer}
+export {HeroContainer,Footer}

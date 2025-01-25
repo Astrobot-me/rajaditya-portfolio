@@ -9,7 +9,7 @@ export const Spotlight = ({
   width = 560,
   height = 1380,
   smallWidth = 240,
-  duration = 7,
+  duration = 5,
   xOffset = 100
 } = {}) => {
   return (
@@ -21,7 +21,7 @@ export const Spotlight = ({
         opacity: 1,
       }}
       transition={{
-        duration: 1.5,
+        duration: 2,
       }}
       className="pointer-events-none absolute inset-0 h-full w-full">
       <motion.div

@@ -5,8 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "lexend":["Lexend Giga", "serif"],
+        "funneldisplay":["Funnel Display", "serif"],
+      }
+    },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-motion')],
 }
 
