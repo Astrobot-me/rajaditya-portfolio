@@ -39,6 +39,7 @@ export default function Footer() {
               </a> */}
               <a
                 href="mailto:autobot268@gmail.com"
+                target="_blank"
                 className="flex items-center text-green-400 hover:text-green-300 transition-colors"
               >
                 <Mail className="w-5 h-5 mr-2" />
