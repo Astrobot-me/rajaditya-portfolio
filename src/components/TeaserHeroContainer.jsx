@@ -7,7 +7,7 @@ import TimerCountdown from "../hooks/useCount.js";
 
 export default function HeroContainer() {
 
-  const time = TimerCountdown({ targetDate: "Feb 04 2025 16:00:00 GMT+0530" })
+  const time = TimerCountdown({ targetDate: "Feb 10 2025 16:00:00 GMT+0530" })
 
 
   return (
