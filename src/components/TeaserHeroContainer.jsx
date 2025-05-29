@@ -24,7 +24,7 @@ export default function HeroContainer() {
         <div className=" sm:mt-10 mt-20 text-5xl text-white text-center ">
           <TextGenerateEffect words={"Releasing Soon "} duration={0.9} className={`font-lexend`} />
         </div>
-        <div className=" sm:text-6xl text-3xl text-white text-center font-lexend">
+        {/* <div className=" sm:text-6xl text-3xl text-white text-center font-lexend">
           <p className="mt-5  mb-5">
             <span>T - </span>
             <span className="inline-block sm:w-24 w-12 ">{time.days}</span>
@@ -36,7 +36,7 @@ export default function HeroContainer() {
             <span className="inline-block sm:w-24 w-12">{time.seconds}</span>
             <span className="sm:text-2xl text-sm font-thin">secs</span>
           </p>
-        </div>
+        </div> */}
 
         <p
           className="sm:mt-10 mt-12 font-normal text-base text-neutral-300 sm:max-w-2xl max-w-[310px] text-center mx-auto  ">
