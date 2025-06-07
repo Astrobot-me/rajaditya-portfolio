@@ -5,6 +5,7 @@ import { ShootingStars } from "./ui/index.js";
 import { StarsBackground } from "./ui/index.js";
 import TimerCountdown from "../hooks/useCount.js";
 
+
 export default function HeroContainer() {
 
   const time = TimerCountdown({ targetDate: "Feb 28 2025 10:00:00 GMT+0530" })
@@ -22,7 +23,7 @@ export default function HeroContainer() {
           Welcome to <br /> <span className="font-funneldisplay ">AditYa RaJ's PortFolio </span>
         </h1>
         <div className=" sm:mt-10 mt-20 text-5xl text-white text-center ">
-          <TextGenerateEffect words={"Releasing Soon "} duration={0.9} className={`font-lexend`} />
+          <TextGenerateEffect words={"Releasing Full Portfolio Soon "} duration={0.9} className={`font-lexend`} />
         </div>
         {/* <div className=" sm:text-6xl text-3xl text-white text-center font-lexend">
           <p className="mt-5  mb-5">
@@ -38,11 +39,26 @@ export default function HeroContainer() {
           </p>
         </div> */}
 
+        <div className=" sm:mt-10 mt-5 text-white text-center font-lexend">
+          <a href="#linkedin">
+          <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-full border text-sm border-slate-800 bg-[linear-gradient(110deg,#16181b,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-10 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+          Check Profile
+        </button>
+          </a>
+        </div>
+
         <p
-          className="sm:mt-10 mt-12 font-normal text-base text-neutral-300 sm:max-w-2xl max-w-[310px] text-center mx-auto  ">
+          className="sm:mt-20 mt-10 font-normal text-base text-neutral-300 sm:max-w-2xl max-w-[310px] text-center mx-auto  ">
          As the stars aligns,the gpt refines, and it fixes my code mess so it comes to life. Keep watching this space something remarkable is on its way 🚀.
         </p>
       </div>
     </div >)
   );
 }
+
+        // // Button code
+        
+  
+        // // tailwind.config.js code
+        
+      

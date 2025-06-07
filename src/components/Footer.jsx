@@ -4,7 +4,7 @@ import { Github, Linkedin, Twitter, Mail, ExternalLink } from "lucide-react"
 export default function Footer() {
   return (
     <footer className="bg-black text-gray-300">
-      <div className="max-w-6xl mx-auto px-4 py-12 md:py-16">
+      <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-1 hidden sm:inline-block">
             <h2 className="text-3xl font-bold font-funneldisplay hidden sm:inline-block   text-white">Aditya Raj</h2>
