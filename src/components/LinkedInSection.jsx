@@ -33,7 +33,7 @@ export default function LinkedInComponent() {
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <Mail className="w-5 h-5  text-white" />
-                <span>aditya.me269@gmail.com</span>
+                <span><a href="mailto:aditya.me269@gmail.com">aditya.me269@gmail.com</a></span>
               </div>
               {/* <div className="flex items-center gap-3 text-gray-300">
                 <Phone className="w-5 h-5  text-white" />
