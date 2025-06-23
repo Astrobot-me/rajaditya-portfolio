@@ -54,7 +54,7 @@ export default function LinkedInComponent() {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1xCf4bRBBcK8lAs4bVpzL5JPAUfSX2nsI/view?usp=sharing"
+                href="https://drive.google.com/file/d/1AnZfVv5I-SXjQ7TX9JAMJta3t7jIIAPh/view?usp=sharing"
                 download
                 className="inline-flex items-center justify-center gap-2 border border-gray-600 text-white hover:bg-[#16181b]  font-semibold px-8 py-3 rounded-md transition-colors"
                 target="_blank"

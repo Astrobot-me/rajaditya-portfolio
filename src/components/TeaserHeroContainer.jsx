@@ -4,6 +4,7 @@ import { TextGenerateEffect } from "./ui/index.js";
 import { ShootingStars } from "./ui/index.js";
 import { StarsBackground } from "./ui/index.js";
 import TimerCountdown from "../hooks/useCount.js";
+import { Link } from "react-router";
 
 
 export default function HeroContainer() {
@@ -52,7 +53,11 @@ export default function HeroContainer() {
          As the stars aligns,the gpt refines, and it fixes my code mess so it comes to life. Keep watching this space something remarkable is on its way 🚀.
         </p>
       </div>
+
+      
     </div >)
+
+
   );
 }
 
